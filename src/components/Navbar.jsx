@@ -9,7 +9,7 @@ const Navbar = () => {
 
   </>
     return (
-        <div className="max-lg:collapse lg:mb-48 p-4 bg-black">
+        <div className="max-lg:collapse p-4 bg-black">
   <input id="navbar-1-toggle" className="peer hidden" type="checkbox" />
   <label htmlFor="navbar-1-toggle" className="fixed inset-0 hidden max-lg:peer-checked:block"></label>
   <div className="collapse-title navbar">
@@ -43,7 +43,7 @@ const Navbar = () => {
 
     </ul>
   </div>
-  <hr className='bg-gray-800 m-2' />
+  <hr className='bg-gray-950 m-2' />
 </div>
     );
 };

@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className='flex justify-center items-center'>
                       <Image src="/assets/logo.png" width="30" height="30" alt='dumble'/>
 
-              <h2 className="btn btn-ghost text-xl">FitLog</h2>
+              <h2 className="btn btn-ghost text-xl hidden md:block lg:block">FitLog</h2>
 
       </div>
     </div>

@@ -2,6 +2,20 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+
+  images:{
+    remotePatterns:[
+      {
+        protocol: 'https',
+  hostname: 'img.magnific.com',
+  port: '',
+  pathname: '/free-photo/**',
+        
+      },
+    ],
+  },
+
+
 };
 
 export default nextConfig;

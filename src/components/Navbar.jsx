@@ -31,7 +31,7 @@ const Navbar = () => {
     </div>
     <div className="navbar-end flex gap-4 ">
      <h3>Plan</h3>
-     <span className='py-1 px-3 rounded-full font-bold border bg-transparent hover:bg-lime-400 hover:border-none hover:text-black'>0</span>
+     <span className='py-1 px-3 text-black rounded-full bg-lime-400 font-bold  hover:border border-lime-400 hover:bg-transparent hover:text-white'>0</span>
      <h3>Saved</h3>
      <span className='py-1 px-3 rounded-full font-bold border bg-transparent hover:bg-lime-400 hover:border-none hover:text-black'>0</span>
     </div>
